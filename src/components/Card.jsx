@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({id, image, desc}) => {
+const Card = ({image, desc}) => {
     return (
         <div className="">
             <div className="bg-white rounded-lg shadow-lg w-full max-w-72">
@@ -8,7 +8,7 @@ const Card = ({id, image, desc}) => {
                     src={image}
                     alt="unsplash images" className="rounded-t-lg"/>
                 <div className="p-6">
-                    <p className="text-purple-700 mb-2">{desc}</p>
+                    <p className="text-gray-700 mb-2">{desc}</p>
                 </div>
             </div>
         </div>
